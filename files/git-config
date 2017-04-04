@@ -1,6 +1,5 @@
 [user]
 	name = Richard Geist
-	password = mako9091!
 	email = richard.geist01@gmail.com
 [alias]
 	hist = log --all --graph --decorate --oneline
