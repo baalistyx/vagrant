@@ -16,7 +16,7 @@ service httpd stop
 rm -rf /var/www/html
 ln -s /vagrant /var/www/html
 
-service httpd start
+
 
 #php install
 yum install -y php php-cli php-common php-devel php-mysql
@@ -32,7 +32,11 @@ service mysqld start
 mysql -u root -e "SHOW DATABASES";	
 
 #Download Start Contet
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/baalistyx/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/baalistyx/vagrant/master/files/info.php
 
+service httpd start
 
 
 
