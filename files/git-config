@@ -1,0 +1,20 @@
+[user]
+	name = Richard Geist
+	password = mako9091!
+	email = richard.geist01@gmail.com
+[alias]
+	hist = log --all --graph --decorate --oneline
+[core]
+	editor = mate -w
+[diff]
+	tool = p4merge
+[difftool "p4merge"]
+	path = /Applications/p4merge.app/Contents/MacOS/p4merge	
+[difftool]
+	prompt = false
+[merge]
+	tool = p4merge
+[mergetool "p4merge"]
+	path = /Applications/p4merge.app/Contents/MacOS/p4merge
+[mergetool]
+	prompt = false
