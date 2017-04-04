@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Install Apache
 yum install -y httpd httpd-devel httpd-tools
 chkconfig --add httpd
@@ -10,11 +9,8 @@ service httpd stop
 rm -rf /var/www/html
 ln -s /vagrant /var/www/html
 
-
-
 #php install
 yum install -y php php-cli php-common php-devel php-mysql
-
 
 #Download Start Contet
 cd /vagrant

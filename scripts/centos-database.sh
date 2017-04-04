@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#intstall Mysal
+#install Mysal
 
 yum install -y mysql mysql-server mysql-devel
 chconfig --add mysqld
